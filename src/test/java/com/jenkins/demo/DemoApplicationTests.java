@@ -16,6 +16,7 @@ class DemoApplicationTests {
 	void contextLoads() {
 		logger.info("Test case executing.......");
 		logger.info("Test case executing second time.......");
+		logger.info("Test case executing email test time.......");
 		assertEquals(true, true);
 	}
 
