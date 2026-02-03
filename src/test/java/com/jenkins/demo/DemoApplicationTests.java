@@ -13,10 +13,10 @@ class DemoApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(DemoApplication.class) ;
 
 	@Test
-	 contextLoads() {
+	void contextLoads() {
 		logger.info("Test case executing.......");
-		logger.info("Test case executing second time.......");
 		logger.info("Test case executing email testing time.......");
+		logger.info("Test case executing JENKINS pipeline.......");
 		assertEquals(true, true);
 	}
 
