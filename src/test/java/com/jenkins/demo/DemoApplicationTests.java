@@ -13,7 +13,7 @@ class DemoApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(DemoApplication.class) ;
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("Test case executing.......");
 		logger.info("Test case executing email testing time.......");
 		logger.info("Test case executing JENKINS pipeline.......");
